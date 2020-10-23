@@ -14,6 +14,6 @@ setInterval(() => {
     
 }, 1000);
 
- myAudio = new Audio('tik.mp3');
+var myAudio = new Audio('tik.mp3');
 myAudio.loop = true;
 myAudio.play();
